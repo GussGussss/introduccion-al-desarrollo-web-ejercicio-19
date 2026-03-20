@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Angel Gustavo Pacheco Meza</title>
+</head>
+<body>
+
+  <h1>Ejemplo de salidas de texto en JavaScript</h1>
+
+  <p id="salida"></p>
+
+  <script>
+    // Declaración de variables con datos personales
+    let nombre = "Angel Gustavo Pacheco Mez";
+    let edad = 21;
+    let escuela = "Universidad Autónoma de Sinaloa";
+    let correo = "gustavopacheco3005@gmail.com";
+
+    // Salida usando innerHTML
+    document.getElementById("salida").innerHTML =
+      "<b>Nombre:</b> " + nombre + "<br>" +
+      "<b>Edad:</b> " + edad + "<br>" +
+      "<b>Escuela:</b> " + escuela + "<br>" +
+      "<b>Correo:</b> " + correo;
+
+    // Salida usando document.write()
+    document.write("<h2>Salida con document.write()</h2>");
+    document.write("Nombre: " + nombre + "<br>");
+    document.write("Edad: " + edad + "<br>");
+    document.write("Escuela: " + escuela + "<br>");
+    document.write("Correo: " + correo + "<br>");
+
+    // Salida usando alert()
+    alert("Nombre: " + nombre + "\nEdad: " + edad);
+
+    // Salida usando console.log()
+    console.log("Nombre: " + nombre);
+    console.log("Edad: " + edad);
+    console.log("Escuela: " + escuela);
+    console.log("Correo: " + correo);
+  </script>
+
+</body>
+</html>
